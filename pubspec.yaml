@@ -1,0 +1,22 @@
+name: fb_audience_network_ad
+description: just facebook audience ad network support Android and iOS.
+version: 0.0.7
+author: lolqplay team from birdgang <lolqdevelop@gmail.com>
+homepage: https://lolqmember-birdgang@bitbucket.org/lolqmember-birdgang/flutter_plugin_audience_network_ad.git
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    androidPackage: com.birdgang.fb_audience_network_ad
+    pluginClass: FacebookAudienceNetworkPlugin
